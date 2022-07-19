@@ -192,7 +192,7 @@ input[type="email"] {
 
 input[type="submit"] {
   border: 1px solid black;
-  background-color: blue;
+  background-color: green;
   border-radius: 5px;
    padding: 2px 1em;
   font-weight: bold;
@@ -353,4 +353,56 @@ caption {
   height: 100px;
   border-radius: 5px;
   background-color: rgb(207,232,220);
+  padding: 1%;
+   }
+
+   /* ||Agro-news specific */
+
+  .newsbox {
+    display: grid;
+    padding-left: 20px;
+    grid-template-columns: 0.3fr 1fr;
+     grid-template-rows: 150px;
+
+    flex-wrap: wrap;
+  }
+  .quote {
+    text-align: right;
+  }
+  .quote-box {
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 20px;
+    border: green solid 5px;
+  }
+
+  /* ||Agro-service specific */
+
+  .service {
+    display: flex;
+    overflow-y: scroll;
+    max-height: 300px; 
+    background-color: lavender;
+    font-size: 1.5rem;
+   }
+
+   .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     height: fit-content;
+    font-size: 1.5rem;
+    background-color: lavender;
+    padding: 10px;
+    text-align: center;
+   }
+
+   .equipment-image {
+    display: block;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+   }
+
+   .info {
+    font-display: bottom;
    }
