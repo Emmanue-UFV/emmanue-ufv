@@ -20,15 +20,15 @@
      
 <nav class="container">
         <ul>
-            <li>Home</li>
+            <li><a href="index.html" title="Back to homepage">Home</a></li>
             <li><a href="agro-services.html">Agro-Service hub</a></li>
             <li><a href="e-market.html">Agro-Market</a></li>
             <li><a href="agro-learning.html">Agro-Empowerment</a></li>
             <li><a href="smart-agric.html">Smart Agriculture</a></li>
             <li><a href="agro-news.html">Agro-News/forum</a></li>
-        </ul>
+          </ul>
 
-           <!-- CONSIDER MOVING SEARCH TO  OTHER PAGES--> 
+           
             <form>
             <input type="search" name="q" placeholder="Search query">
             <input type="submit" value="Go!">
@@ -37,31 +37,41 @@
 </header>
   
 <main>
+<section>
+    <h3>Welcome!</h3>
+    <p>Are you ready to advertise your goods or services?</p>
+    <p>Please complete the form below (<strong>paying special attention to the required fields marked*</strong>) by filling out each relevant field. Once you submit this form, your product will become available on our agro-market platform for intending consumers to purchase.<p>
+<p>If you experience any challenges, <a href="mailto:ugwor.ifeanyichukwu@ufv.br">contact us</a>.</p>
 
-    <!-- This is a section -->
-    <article>
-      <h2>Concept of ISS</h2>
-      <p>ISS is a technology-driven platform where Nigerians, regardless of gender, economic class, education, or any other socio-economic class, can interact, network, and exchange information, ideas, and resources pertinent to poverty alleviation and rural developemt, via sustainable agricuture. </p>
-      <h2>Participants</h2>
-      <p>You are especially invited to join us if you:</p>
-      <ol>
-          <li>Own a farm (be it plant or animal) or are interested in starting a farm</li>
-          <li> Are a firm, governmental or non-govenrmental agencies, willing to work with Nigerian farmers and:</li>
-          <ul>
-              <li>Provide loans for farmers</li>
-              <li>Lease agricultural equipments</li>
-              <li>Provide logistics services</li>
-              <li>Provide any other agro-relavant services, such as logistics, food processing, or precision technology for farms</li>
-          </ul>
-          <li>Are individuals or companies interested in purchasing agro-products</li>
-          <li>Are individuals  or companies interested in providing  agro-related services, such as e-commerce, educational resources, etc.</li>
-      </ol>
-      <h2>What do you stand to gain?</h2>
-      <p>We invite you to be the forerunners of <a href="https://www.worldbank.org/en/topic/climate-smart-agriculture" title="Smart Agriculture by World Bank" target="_blank">smart agriculture</a> in Nigeria. The opportunities you stand to gain, as individuals or firms, are immeasurable. Imagine yourself with the whole of stakeholders of Agribusiness in Nigeria, in a conference room!!</p>
+
+<div class="field1"><form class="register-form" action="/my-handling-form-page" method="post">
+            <p class="category"><strong>Product Information</strong>
+              <br><em>Please provide information about product (farm goods or services).</em></p>
+
+            <div class="field"><label for="product-description"><strong> Product description:*</strong></label>
+            <input type="text" id="product-description" required></div>
+            <div class="field"><label for="product-price"><strong>Price (₦):*</strong></label>
+                <legend><em>Please provide a standardised price, e.g., per kg, litre, even negotiable.</em></legend>
+              <input type="text" id="product-price" required></div>
+              <div class="field"><label for="product-location"><strong>Location:*</strong></label>
+                <input type="text" id="product-location" required></div>
+                <div class="field"><label for="passport"><strong> Upload a clear picture of your product (if applicable):</strong></label>
+                    <input type="file"  id="passport" ></div>
+                
+                
+                <div class="field"><label for="e-mail"><strong>Contact info:*</strong></label>
+                  <input type="text" id="product-contact" required></div>
+
+                  <div class="view">
+                    <a href="confirmation-page.html"><div class="buttons"><input type="submit" value="Upload to market"></a></div>
+
+                   </form></div>     
+
+
+</section>
+
     
-    </article>
-
-        <aside>
+     <aside>
             <section>
                 <h2>Mission</h2>
                 <p>Our mission is to serve as a technology-driven platform where Nigerians, regardless of gender, economic class, education, or any other socio-economic class, can interact, network, and exchange information, ideas, and resources pertinent to poverty alleviation and rural developemt, via sustainable agricuture. </p>
@@ -70,13 +80,13 @@
     </section>
 <hr>
     <section class="antiquewhite">
-      <h3>Register</h3>
-      <p>As an ISS platform member, you will have access to all of our resources, marketplace, be able to participate in active forums, get frequent email updates, and explore the profiles of other members. <Strong>Join us as:</Strong></p>
-      <ul>
-          <li><a href="register-as-farmer.html"> A practicing farmer</a></li>
-          <li> <a href="resgister-as-intending-farmer.html"> An intending farmer</a></li>
-          <li> <a href="resgister-as-agro-allied-firm.html">An agro-allied firm</a></li>
-      </ul>
+        <h3>Register</h3>
+        <p>As an ISS platform member, you will have access to all of our resources, marketplace, be able to participate in active forums, get frequent email updates, and explore the profiles of other members. <Strong>Join us as:</Strong></p>
+        <ul>
+            <li><a href="register-as-farmer.html"> A practicing farmer</a></li>
+            <li> <a href="resgister-as-intending-farmer.html"> An intending farmer</a></li>
+            <li> <a href="resgister-as-agro-allied-firm.html">An agro-allied firm</a></li>
+        </ul>
         <hr>
         <h3>Already a memeber?</h3>
           <form>
@@ -90,6 +100,10 @@
     </aside>
     </main>
         
+    <main class="sellers">
+        <p><em><strong>Interested in selling your products? Visit our <a href="e-market.html">e-market platform</a></strong></em></p>
+    </main>
+
        <footer>
         <address>
             You can contact author at <a href="http://www.somedomain.com/contact">

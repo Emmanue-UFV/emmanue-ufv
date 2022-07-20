@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ugwor Emmanuel">
+    <meta name="description" content="Website for Gen Cha">
+    <link href="assets/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+    <!--script src="scripts/main.js" defer></script-->
+    <link rel="icon" href="413531.ico" type="image/x-icon">
+    <title>Integrated Smart Solution (ISS) Platform</title>
+
+ </head>
+ 
+ <body>
+
+ <header>
+    <h1> Integrated Smart Solution (ISS) Platform</h1>
+    <img src="images/smart-agri-icon.webp" alt="Smart Agriculture: Adding precision to your farm">
+     
+<nav class="container">
+        <ul>
+            <li><a href="index.html" title="Back to homepage">Home</a></li>
+            <li><a href="agro-services.html">Agro-Service hub</a></li>
+            <li><a href="e-market.html">Agro-Market</a></li>
+            <li><a href="agro-learning.html">Agro-Empowerment</a></li>
+            <li><a href="smart-agric.html">Smart Agriculture</a></li>
+            <li><a href="agro-news.html">Agro-News/forum</a></li>
+          </ul>
+
+           
+            <form>
+            <input type="search" name="q" placeholder="Search query">
+            <input type="submit" value="Go!">
+          </form>
+</nav>
+</header>
+  
+<main>
+<section>
+    <h3>Register as a practicing farmer</h3>
+    <p>Do you already have an active farm or agricultural practice? If so, we welcome you to the registration page for the ISS platform</p>
+    <p>Please complete the form below (<strong>paying special attention to the required fields marked*</strong>) by filling out each relevant field.</p>
+<p>If you wish to get our newsletters and e-mail updates, <strong> please tick the box at the bottom of this form</strong>. Once you submit this form, our resource persons will review and authenticate each registration independently.<p>
+<p>If you experience any challenges, <a href="mailto:ugwor.ifeanyichukwu@ufv.br">contact us</a>.</p>
+
+
+          <form class="field1"><form class="register-form" action="/my-handling-form-page" method="post">
+            <p class="category"><strong>Personal Information</strong>
+              <br><em>Please provide information about yourself.</em></p>
+
+            <div class="field"><label for="firstname"><strong> First name:*</strong></label>
+            <input type="text" id="firstname" required></div>
+            <div class="field"><label for="lastname"><strong>Last name:*</strong></label>
+              <input type="text" id="lastname" required></div>
+              <div class="field"><label for="NIN"><strong>National Identification Number (NIN):*</strong></label>
+                <legend><em>This will be used for authentication of your account</em></legend>
+                <input type="text" id="NIN" required></div>
+                <div class="field"><label for="e-mail"><strong>Email address:*</strong></label>
+                  <input type="email" id="e-mail" required></div>
+                  
+                  <div class="field"><label><strong>Years of agricultural experience:*</strong></label>
+                    <fieldset>          
+                    <p><input type="radio" name="experience" id="experience_1" value="Less than 1 year">
+                      <label for="experience_1">Less than 1 year</label></p>
+                    <p>
+                      <input type="radio" name="experience" id="experience_2" value="1 - 3 years">
+                      <label for="experience_1">1 - 3 years</label>
+                    </p>
+                    <p>
+                      <input type="radio" name="experience" id="experience_3" value="3 - 5 years">
+                      <label for="experience_1">3 - 5 years</label>
+                    </p>
+                    <p>
+                      <input type="radio" name="experience" id="experience_4" value="5 - 10 years">
+                      <label for="experience_1">5 - 10 years</label>
+                    </p>
+                    <p>
+                      <input type="radio" name="experience" id="experience_5" value="5 - 10 years">
+                      <label for="experience_1">5 - 10 years</label>
+                    </p>
+                  </fieldset> </div>
+
+                  <div class="field"><label for="short-bio:"><strong>Short Bio:</strong></label>
+                    <textarea id="short-bio" name="user_bio"></textarea></div>
+                    
+                    <div class="field"><label for="passport"><strong> Upload your passport:*</strong></label>
+                      <legend><em>Please upload a passport photograph, on white background. This will be used to authenticate your account.</em></legend>
+                      <input type="file"  id="passport" required></div>
+
+                    </form></div>
+
+                    <div class="field1"><form action="/my-handling-form-page" method="post">
+                    <p class="category"><strong>Farm information</strong>
+                    <br><em>Please provide information about your farm.</em>
+                  </p>
+                   
+                    <div class="field"><label for="farmname"><strong> Name of your farm (or Corporate name):* </strong></label>
+                      <input type="text" id="farmname" required></div>
+
+                      <div class="field"><label for="farmid"><strong> Farm Registration Number (if available): </strong></label>
+                        <input type="text" id="farmid"></div>
+
+                        <div class="field"><label for="farmregion"><strong> Region where your farm(s) is located:* </strong></label>
+                          <select  id="farmregion" required >
+                            <option>-Select region-</option>
+                            <option  value="South-east">South east</option>
+                            <option  value="South-south">South south</option>
+                            <option  value="South-west">South west</option>
+                            <option  value="North-east">North east</option>
+                            <option  value="North-south">North south</option>
+                            <option  value="North-west">North west</option></select>
+                          </div>
+
+                          <div class="field"><label for="farmaddress"><strong> Farm address:*</strong></label>
+                            <input type="text" id="farmaddress" required></div>
+
+                            <div class="field"><label><strong>Type of farm:*</strong></label>
+                              <fieldset>          
+                              <p><input type="radio" name="farmtype" id="type_1" value="animal">
+                                <label for="type_1">Animal farm</label></p>
+                                <p><input type="radio" name="farmtype" id="type_2" value="crop">
+                                  <label for="type_2">Crop farm</label></p>
+                                  <p><input type="radio" name="farmtype" id="type_3" value="both">
+                                    <label for="type_3">Both</label></p>
+                            </fieldset> </div>
+
+                            <div class="field"><label><strong>Size of farmland:*</strong></label>
+                              <fieldset>          
+                              <p><input type="radio" name="farmsize" id="type_1" value="small">
+                                <label for="type_1">Small (less than an acre)</label></p>
+                                <p><input type="radio" name="farmsize" id="type_2" value="medium">
+                                  <label for="type_2">Medium (less two hectares)</label></p>
+                                  <p><input type="radio" name="farmsize" id="type_3" value="large">
+                                    <label for="type_3">Large (greater than two hectares)</label></p>
+                            </fieldset> </div>
+
+                            <div class="field"><label for="farmproduct"><strong>Farming products:</strong>
+                            <legend><em>Please separate each products with a  coma</em></legend>
+                            </label>
+                              <input type="text"  id="farmproduct" required></div>
+
+                              <div class="field"><label for="farm-picture"><strong>Farm picture:*</strong></label>
+                                <legend><em>Please upload a picture of your farm (with you in at least one of the picture).</em></legend>
+                                <input type="file"  id="farm-picture" required multiple accept="image/*"></div>
+                      
+                              </form></div>
+                              
+
+                              <div class="field1"><form action="/my-handling-form-page" method="post">
+                    <p class="category"><strong>Login details</strong>
+                      <br><em>Please provide your preferred login details below.</em></p>
+
+                    <div class="field"><label for="username"><strong>Preferred username:*</strong></label>
+                      <input type="text"  id="username" required></div>
+
+                      <div class="field"><label for="password"><strong>Password:*</strong></label>
+                        <legend><em>Please enter a password of at least 8 characters.</em></legend>
+                        <input type="password"  id="password" required></div>
+
+                        <div class="field"><label for="password"><strong>Password:*</strong></label>
+                          <legend><em>Please re-enter your password.</em></legend>
+                          <input type="password"  id="password" required></div>
+
+                          <div class="field"> <input type="checkbox"  id="updates" >
+                            <label for="updates"><em>Please tick the box below if you wish to get our newsletters and e-mail updates </em></label>
+                          </div>
+                          
+                          <div class="view">
+                            <a href="confirmation-page.html"><div class="buttons"><input type="submit" value="Register"></div></a>
+
+          </form>
+          
+        </form>
+        
+
+
+</section>
+
+    
+     <aside>
+            <section>
+                <h2>Mission</h2>
+                <p>Our mission is to serve as a technology-driven platform where Nigerians, regardless of gender, economic class, education, or any other socio-economic class, can interact, network, and exchange information, ideas, and resources pertinent to poverty alleviation and rural developemt, via sustainable agricuture. </p>
+                <h2>Vision</h2>
+                <p>To have lifted 50 million Nigerians out of extreme poverty by 2030.</p>       
+    </section>
+<hr>
+    <section class="antiquewhite">
+        <h3>Register</h3>
+        <p>As an ISS platform member, you will have access to all of our resources, marketplace, be able to participate in active forums, get frequent email updates, and explore the profiles of other members. <Strong>Join us as:</Strong></p>
+        <ul>
+            <li>A practicing farmer</li>
+            <li> <a href="resgister-as-intending-farmer.html"> An intending farmer</a></li>
+            <li> <a href="resgister-as-agro-allied-firm.html">An agro-allied firm</a></li>
+        </ul>
+        <hr>
+        <h3>Already a memeber?</h3>
+          <form>
+            <div><label for="username">Username</label>
+            <input type="text" id="username"></div>
+            <div><label for="password">Password</label>
+            <input type="text" id="password"></div>
+           <div class="buttons"><input type="submit" value="Login"></div>
+          </form>
+     </section>
+    </aside>
+    </main>
+        
+    <main class="sellers">
+        <p><em><strong>Interested in selling your products? Visit our <a href="e-market.html">e-market platform</a></strong></em></p>
+    </main>
+
+       <footer>
+        <address>
+            You can contact author at <a href="http://www.somedomain.com/contact">
+            www.genevachallenge.com</a>.<br>
+            If you see any bugs, please <a href="mailto:ugwor.ifeanyichukwu@ufv.br">
+            contact us</a>.<br>
+            You may also want to visit us:<br>
+            Mozilla Foundation<br>
+            331 E Evelyn Ave<br>
+            Mountain View, CA 94041<br>
+            USA
+          </address>
+        <p>©Copyright 2050 by Team ARIFA. All rights reversed.</p>
+      </footer>
+      
+
+  
+  </body>
+</html>

@@ -95,6 +95,8 @@ nav li {
   text-align: center;
   flex: 2;
   border: 1px solid black;
+  background-color: lavender;
+  font-weight: bold;
  }
  
 nav a, nav span {
@@ -288,6 +290,13 @@ caption {
       padding-left: 20px;
      }
 
+     .e-sell {
+      border: lightblue 3px solid;
+      font-size: 1.5em;
+      background-color: lavender;
+      padding: 5%;
+     }
+
      /* ||Agro-learning specific */
 
      figure {
@@ -305,9 +314,10 @@ caption {
   }
   
   figcaption {
-      background-color: #222;
+      background-color: green;
       color: #fff;
       font: italic smaller sans-serif 5px;
+      font-size: 1.5em;
       padding: 3px;
       text-align: center;
   }
@@ -363,7 +373,7 @@ caption {
     padding-left: 20px;
     grid-template-columns: 0.3fr 1fr;
      grid-template-rows: 150px;
-
+background-color: lavender;
     flex-wrap: wrap;
   }
   .quote {
@@ -406,3 +416,69 @@ caption {
    .info {
     font-display: bottom;
    }
+
+   /* ||Registration-service specific */
+
+
+div+div {
+  margin-top: 1em;
+}
+
+ textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+
+input[type=checkbox], input[type=radio] {
+  width: auto;
+  border: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+fieldset {
+  width: 250px;
+  box-sizing: border-box;
+  margin-left: 136px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+button {
+  margin: 20px 0 0 124px;
+  align-items: center;
+}
+
+label {
+position: relative;
+}
+.field1 {
+  background-color: lavender;
+  border-radius: 1em;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.field1+.field1 {
+  margin-top: 1em;
+}
+
+/* ||Agro-learning specific */
+
+.smart{
+  background-color: lavender;
+}
